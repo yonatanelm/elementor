@@ -1,116 +1,63 @@
 // Tags
-
 h1,
 .h1 {
-  font-size: $eps-h-1-font-size;
+	@include create-atom(heading,1);
 }
 
 h2,
 .h2 {
-  font-size: $eps-h-2-font-size;
+	@include create-atom(heading,2);
 }
 
 h3,
 .h3 {
-  font-size: $eps-h-3-font-size;
+	@include create-atom(heading,3);
 }
 
 h4,
 .h4 {
-  font-size: $eps-h4-font-size;
+	@include create-atom(heading,4);
 }
 
 h5,
 .h5 {
-  font-size: $eps-h-5-font-size;
+	@include create-heading-5();
 }
 
 h6,
 .h6 {
-  font-size: $eps-h-5-font-size;
+	@include create-heading-6();
 }
 
-p {
-  margin-bottom: spacing(16);
-}
 
-.heading {
-  color: #6D7882;
-  font-weight: 500;
-  font-size: 26px;
-  line-height: 26px;
-}
-
-.card_headline {
-  color: #6D7882;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 17px;
-}
-
-.menu-item {
-  color: #6D7882;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
-}
-
-.header-title {
-  color: #495157;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 18px;
-  text-transform: uppercase;
-}
-
-.add-new-button {
-  color: #495157;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 20px;
-}
-
-.get-pro-button {
-  color: #FFFFFF;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 15px;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.back-button {
-  color: #A4AFB7;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 14px;
-}
-
-// semantic sizing for text
-// todo: should be put !importatnt here? update code and remove comment
+// Semantic sizing for text
+// - output comments are added for convinence only
+// -- update output comment if you change tokens
 .text-xxs {
-  font-size: $eps-text-xxs-font-size;
+	font-size: type(text, xxs); //11px
+	line-height: 17px; //17px
 }
 
 .text-xs {
-  font-size: $eps-text-xs-font-size;
+	font-size: $eps-text-xs-font-size;
 }
 
 .text-sm {
-  font-size: $eps-text-sm-font-size;
+	font-size: $eps-text-sm-font-size;
+}
+
+.text {
+	font-size: $eps-body-font-size;
+	font-weight: normal;
+	line-height: $eps-line-height-base;
 }
 
 .text-md {
-  font-size: $eps-text-md-font-size;
+	font-size: $eps-text-md-font-size;
 }
 
 .text-lg {
-  font-size: $eps-text-lg-font-size;
-}
-
-.text-xl {
-  font-size: $eps-text-xl-font-size;
+	font-size: $eps-text-lg-font-size;
 }
 
 // todo: placeholders for future semantic work, update or remove
@@ -120,3 +67,58 @@ p {
 //.page-subtitle{}
 //.section-subtitle{}
 //.component-subtitle{}
+
+// Shame
+
+.heading {
+	color: #6D7882;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.card_headline {
+	color: #6D7882;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 17px;
+}
+
+.menu-item {
+	color: #6D7882;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.header-title {
+	color: #495157;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.add-new-button {
+	color: #495157;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.get-pro-button {
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 15px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.back-button {
+	color: #A4AFB7;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 14px;
+}

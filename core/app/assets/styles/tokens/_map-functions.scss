@@ -28,3 +28,7 @@
 @function shadow($keys...) {
   @return map-deep-get($eps-shadow-map, $keys...);
 }
+
+@function atomizer($keys...){
+	@return map-deep-get($eps-atoms,$keys...);
+};

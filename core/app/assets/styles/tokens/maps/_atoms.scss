@@ -1,0 +1,222 @@
+$eps-atoms: (
+		display:(
+				1:(
+						font-size: $eps-h-1-font-size,
+						line-height:null,
+						color: $eps-gray-800,
+						margin-top: $eps-spacer,
+						margin-bottom: $eps-spacer,
+						font-familiy:null,
+						font-weight:null,
+						text-transform: null,
+				),
+				2:(
+						font-size: $eps-h-1-font-size,
+						line-height:null,
+						color: $eps-gray-800,
+						margin-top: $eps-spacer,
+						margin-bottom: $eps-spacer,
+						font-familiy:null,
+						font-weight:null,
+						font-style: null,
+						text-transform: null,
+				),
+				3:(
+						font-size: $eps-h-1-font-size,
+						line-height:null,
+						color: $eps-gray-800,
+						margin-top: $eps-spacer,
+						margin-bottom: $eps-spacer,
+						font-familiy:null,
+						font-weight:null,
+						font-style: null,
+						text-transform: null,
+				),
+				4:(
+						font-size: $eps-h-1-font-size,
+						line-height:null,
+						color: $eps-gray-800,
+						margin-top: $eps-spacer,
+						margin-bottom: $eps-spacer,
+						font-familiy:null,
+						font-weight:null,
+						font-style: null,
+						text-transform: null,
+				),
+		),
+		heading:(
+				1:(
+						font-size: $eps-h-1-font-size,
+						line-height:$eps-line-height-lg,
+						color: $eps-gray-800,
+						margin-top: size(12),
+						margin-bottom: size(12),
+						font-familiy:null,
+						font-weight:$eps-font-weight-bold,
+						font-style: null,
+						text-transform: null,
+				),
+				2:(
+						font-size: $eps-h-1-font-size,
+						line-height:$eps-line-height-lg,
+						color: $eps-gray-800,
+						margin-top: size(12),
+						margin-bottom: size(12),
+						font-familiy:null,
+						font-weight:$eps-font-weight-medium,
+						font-style: null,
+						text-transform: null,
+				),
+				3:(
+						font-size: $eps-h-1-font-size,
+						line-height:$eps-line-height-base,
+						color: $eps-gray-800,
+						margin-top: size(12),
+						margin-bottom: size(12),
+						font-familiy:null,
+						font-weight:$eps-font-weight-medium,
+						font-style: null,
+						text-transform: null,
+				),
+				4:(
+						font-size: $eps-h-1-font-size,
+						line-height:null,
+						color: null,
+						margin-top: null,
+						margin-bottom: $eps-spacer,
+						font-familiy:null,
+						font-weight:null,
+						font-style: null,
+						text-transform: null,
+				),
+				5:(
+						font-size: $eps-h-1-font-size,
+						line-height:null,
+						color: $eps-gray-800,
+						margin-top: null,
+						margin-bottom: $eps-spacer,
+						font-familiy:null,
+						font-weight:null,
+						text-transform: null,
+				),
+				6:(
+						font-size: $eps-h-1-font-size,
+						line-height:null,
+						color: null,
+						margin-top: null,
+						margin-bottom: $eps-spacer,
+						font-familiy:null,
+						font-weight:$eps-font-weight-bold,
+						text-transform: null,
+				),
+		),
+		text:(
+				base:(
+						font-size:
+
+						$eps-body-font-size,
+						line-height:
+
+						$eps-line-height-base,
+						color: null,
+						margin-top: null,
+						margin-bottom:null,
+						font-familiy:null,
+						font-weight:
+
+						$eps-font-weight-normal,
+				),
+				xl:(
+						font-size:
+
+						$eps-body-font-size,
+						line-height:
+
+						$eps-line-height-base,
+						color: null,
+						margin-top: null,
+						margin-bottom:null,
+						font-familiy:null,
+						font-weight:
+
+						$eps-font-weight-normal,
+				),
+				lg:(
+						font-size:
+
+						$eps-body-font-size,
+						line-height:
+
+						$eps-line-height-base,
+						color: null,
+						margin-top: null,
+						margin-bottom:null,
+						font-familiy:null,
+						font-weight:
+
+						$eps-font-weight-normal,
+				),
+				md:(
+						font-size:
+
+						$eps-body-font-size,
+						line-height:
+
+						$eps-line-height-base,
+						color: null,
+						margin-top: null,
+						margin-bottom:null,
+						font-familiy:null,
+						font-weight:
+
+						$eps-font-weight-normal,
+				),
+				sm:(
+						font-size:
+
+						$eps-body-font-size,
+						line-height:
+
+						$eps-line-height-base,
+						color: null,
+						margin-top: null,
+						margin-bottom:null,
+						font-familiy:null,
+						font-weight:
+
+						$eps-font-weight-normal,
+				),
+				xs:(
+						font-size:
+
+						$eps-body-font-size,
+						line-height:
+
+						$eps-line-height-base,
+						color: null,
+						margin-top: null,
+						margin-bottom:null,
+						font-familiy:null,
+						font-weight:
+
+						$eps-font-weight-normal,
+				),
+				xxs:(
+						font-size:
+
+						$eps-body-font-size,
+						line-height:
+
+						$eps-line-height-base,
+						color: null,
+						margin-top: null,
+						margin-bottom:null,
+						font-familiy:null,
+						font-weight:
+
+						$eps-font-weight-normal,
+				),
+		),
+);
+
+// utils (left,right,center)
